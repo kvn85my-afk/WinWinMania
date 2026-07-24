@@ -23,8 +23,7 @@ jobs:
       - name: Unzip WinWinMania project
         run: |
           mkdir project
-          unzip "WinWinMania_Android_Project.zip" -d project
-          ls -la project
+          unzip "WinWinMania_Android_Project-1.zip" -d project
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
